@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora IMC</title>
+        <link href="css/cores.css" rel="stylesheet" >
+    </head>
+    <body>
+        <div class="calculadora-ims">
+            <h3>Calculadora de Índice Massa Corporal</h3>
+        
+            <input type="number" id="numPeso" placeholder="Digite seu peso" />
+            <input type="number" id="numAltura" placeholder="Digite sua altura" />
+            <button type="button" id="calcular">Calcular</button>
+            
+                <table>
+                    <tr>
+                        <th>PESO</th>
+                        <th>ALTURA</th>
+                        <th>IMC</th>
+                        <th>SITUAÇÃO</th>
+                    </tr>
+                    <tr>
+                        <td><span id="peso"></span></td>
+                        <td><span id="altura"></span></td>
+                        <td><span id="imc"></span></td>
+                        <td><span id="situacao"></span></td>
+                    </tr>
+                </table>
+
+            <figure>
+                <img src="imagens/imc.png" alt="imagem ilustrativa dos níveis de indice de massa corporal">
+            </figure>
+
+        </div>
+    </body>
+    <script src="js/funcoes.js"></script>
+    <script src="js/controller.js"></script>
+</html>
